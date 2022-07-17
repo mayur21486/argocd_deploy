@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: GauravApp       
+  name: gauravapp       
   namespace: argocd
 spec:
   project: default
