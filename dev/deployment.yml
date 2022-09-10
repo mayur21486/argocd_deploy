@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: coolgoura077b4106ac70b13c417f66102566f958740d300d47/nginx-custom:v1
+        image: mayur21486/helloapp:0asdfas
         ports:
         - containerPort: 80
