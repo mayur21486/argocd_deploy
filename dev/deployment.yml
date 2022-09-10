@@ -1,4 +1,4 @@
-apiVersion: apps/077b4106ac70b13c417f66102566f958740d300d
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp
