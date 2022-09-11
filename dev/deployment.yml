@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: mayur21486/helloapp:81f7568466f0fa570fe2697c0adab4c13f1add21
+        image: mayur21486/helloapp:da8f71ee7f092491a3760d0007f6c85debaa7ac4
         ports:
         - containerPort: 80
