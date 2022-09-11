@@ -1,17 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: gauravapp       
+  name: gauravapp-prod    
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/mayur21486/argocd_deploy.git
-    targetRevision: HEAD
+    targetRevision: master
     path: dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: gauravapp
+    namespace: gauravapp-prod
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
