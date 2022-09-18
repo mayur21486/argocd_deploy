@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/mayur21486/argocd_deploy.git
     targetRevision: master
-    path: dev
+    path: prod
   destination:
     server: https://kubernetes.default.svc
     namespace: gauravapp-prod
