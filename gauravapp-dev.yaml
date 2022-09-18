@@ -6,8 +6,9 @@ metadata:
 spec:
   project: default
   source:
+    chart: gauravapp-dev
     repoURL: https://github.com/mayur21486/argocd_deploy.git
-    targetRevision: dev
+    targetRevision: 0.1.0  
     path: dev
   destination:
     server: https://kubernetes.default.svc
